@@ -5,7 +5,7 @@ import com.in28minutes.learn_spring_framework.game.SuperContraGame;
 import com.in28minutes.learn_spring_framework.game.GameRunner;
 import com.in28minutes.learn_spring_framework.game.Pacman;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[] args) {
         MarioGame marioGame = new MarioGame();
         SuperContraGame superContraGame = new SuperContraGame();
