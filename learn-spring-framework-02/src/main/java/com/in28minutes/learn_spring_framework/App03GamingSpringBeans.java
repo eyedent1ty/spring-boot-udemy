@@ -13,12 +13,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("com.in28minutes.learn_spring_framework.game;")
 public class App03GamingSpringBeans {
-
-    @Bean
-    public GameRunner gameRunner(GamingConsole game) {
-        return new GameRunner(game);
-    }
-
     public static void main(String[] args) {
         try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
                 App03GamingSpringBeans.class)) {
