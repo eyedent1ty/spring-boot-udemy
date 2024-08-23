@@ -1,9 +1,11 @@
 package com.in28minutes.learn_spring_framework.game;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PacmanGame implements GamingConsole{
+@Primary
+public class PacmanGame implements GamingConsole {
     public void up() {
         System.out.println("Going up");
     }
